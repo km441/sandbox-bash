@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+#declare -a asdf=("Hallo" "Welt" "!")
+declare -A asdf=([a]='Hallo' [b]='Welt' [c]='!')
+
+printArgs() {
+    local -n myarray=$1
+    for i in "${myarray[@]}" ; do
+        echo "$i"
+    done
+}
+
+printArgs2() {
+    local -n myarray=$1
+    for i in "${!myarray[@]}" ; do
+        echo ${myarray[$i]}
+    done
+}
+
+printArgs2 asdf

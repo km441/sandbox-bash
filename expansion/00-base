@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+
+filename=/home////foo/bar/baz.txt
+echo "input: $filename"
+
+clean=${filename/baz/ficken}
+echo "clean: $filename"
+
+basename=${filename##*/}
+echo "basename: $basename"
+
+
+dirname=${filename%/*}
+echo "dirname: $dirname"
