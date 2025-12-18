@@ -1,0 +1,5 @@
+[
+	{ "login": "jf", "name": "Jan Fiegert", "email": "jan.fiegert@dfs.de", "birthday": "11.12.1970", "age": 54 },
+	{ "login": "rk", "name": "Ralph Kar", "email": "ralph.kar@dfs.de", "birthday": "6.2.1968", "age": 58 },
+	{ "login": "gk", "name": "Gabriele Kiel", "email": "gabriele.kiel@bundesbank.de", "birthday": "31.5.1976", "age": 39 }
+]
